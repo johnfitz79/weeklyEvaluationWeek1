@@ -1,0 +1,35 @@
+body {
+background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/cloudy.jpg);
+text-align: center;
+color: white;
+font-family: sans-serif;
+}
+.temp{
+  font-size: 70px;
+  vertical-align: center;
+  width: fixed;
+  align-content: center;
+  padding: 50px;
+  margin-top: 2em;
+  padding: 0;
+
+  }
+}
+}
+.rainy{
+  background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/rainy.jpg);
+}
+.sunny{
+  background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/sunny.jpg);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .temp {
+    color:black;
+  }
+}
+.border{
+  border-style: solid;
+  border-color: black;
+}
